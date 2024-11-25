@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -9,7 +8,8 @@ function App() {
       <header className="App-header">
         <h1>hello</h1>
         <h1>I am {age} years old</h1>
-        <a href={links} target="_blank">
+        <p>{[1, 2, 3, 4, 5]}</p>
+        <a href={links} target="_blank" rel="noopener noreferrer">
           Google sites
         </a>
       </header>
