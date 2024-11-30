@@ -3,8 +3,17 @@ const Navbar = () => {
     <nav className="navbar">
       <h1>Welcome,Nav links here</h1>
       <div className="links">
-        Click <a href="/">Home</a> <br />
-        <a href="/create">New Blog</a>
+        <a href="/">Home</a>
+        <a
+          href="/create"
+          style={{
+            color: "#333",
+            backgroundColor: "#a9620b",
+            borderRadius: "8px",
+          }}
+        >
+          New Blog
+        </a>
       </div>
     </nav>
   );
